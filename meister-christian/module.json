@@ -1,0 +1,91 @@
+{
+  "id": "meister-christian",
+  "title": "Meister-Christian",
+  "description": "Meister Christian Modul",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "authors": [
+    {
+      "name": "Christian"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "MC-Actors",
+      "path": "/packs/actors.db",
+      "entity": "Actor",
+      "type": "Actor",
+      "system": "dsa5"
+    },
+    {
+      "name": "adventure",
+      "label": "MC-Adventure",
+      "path": "/packs/adventure.db",
+      "entity": "Adventure",
+      "type": "Adventure",
+      "system": "dsa5"
+    },
+    {
+      "name": "cards",
+      "label": "Meister-Christian",
+      "path": "/packs/cards.db",
+      "entity": "Cards",
+      "type": "Cards"
+    },
+    {
+      "name": "items",
+      "label": "MC-Items",
+      "path": "/packs/items.db",
+      "entity": "Item",
+      "type": "Item",
+      "system": "dsa5"
+    },
+    {
+      "name": "journals",
+      "label": "Meister-Christian",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "macros",
+      "label": "MC-Macros",
+      "path": "/packs/macros.db",
+      "entity": "Macro",
+      "type": "Macro"
+    },
+    {
+      "name": "maps",
+      "label": "MC-Scenes",
+      "path": "/packs/maps.db",
+      "entity": "Scene",
+      "type": "Scene"
+    },
+    {
+      "name": "playlists",
+      "label": "MC-Playlists",
+      "path": "/packs/playlists.db",
+      "entity": "Playlist",
+      "type": "Playlist"
+    },
+    {
+      "name": "rolltables",
+      "label": "Meister-Christian",
+      "path": "/packs/rolltables.db",
+      "entity": "RollTable",
+      "type": "RollTable"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}
