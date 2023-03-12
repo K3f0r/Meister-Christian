@@ -85,7 +85,7 @@
     "./scripts/init.js"
   ],
   "url": "https://github.com/K3f0r/Meister-Christian",
-  "manifest": "",
+  "manifest": "https://github.com/K3f0r/Meister-Christian/releases/download/1/module.json",
   "download": "",
   "manifestPlusVersion": "1.2.0"
 }
